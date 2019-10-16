@@ -117,7 +117,6 @@ body {
 .image {
   grid-column: 1;
   grid-row: 1;
-  margin-left: 8em;
   margin-top: 3em;
   margin-bottom: 2em;
 }
