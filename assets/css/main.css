@@ -12,16 +12,6 @@
   vertical-align: baseline;
 }
 
-@-ms-viewport {
-  width: device-width;
-}
-
-@media screen and (max-width: 480px) {
-  html,
-  body {
-    min-width: 320px;
-  }
-}
 
 #header {
   background: #1c1c1c;
@@ -56,21 +46,6 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 980px) {
-  body {
-    padding-top: 44px;
-  }
-
-  #header {
-    height: 44px;
-    line-height: 44px;
-  }
-
-  #header .logo {
-    left: 1em;
-    font-size: 1em;
-  }
-}
 
 body {
   font-family: "Lato", Arial, Helvetica, sans-serif;
@@ -89,8 +64,8 @@ strong {
 .options li {
   color: #fff;
   display: inline;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 .options li:hover {
@@ -206,10 +181,4 @@ nav {
   font-size: 0.9em;
   margin: 0 0 2em 0;
   padding: 0;
-}
-
-@media screen and (max-width: 736px) {
-  #footer {
-    padding: 3em 0 1em 0;
-  }
 }
